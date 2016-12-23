@@ -25,6 +25,8 @@ public class RightAdapter extends RecyclerView.Adapter<RightAdapter.ViewHolder> 
     public RightAdapter(List<MyBean.RsEntity.ChildrenEntityX> list, Context context) {
         this.list = list;
         this.context = context;
+
+
     }
 
     @Override
